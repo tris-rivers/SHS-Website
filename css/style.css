@@ -1,10 +1,26 @@
+.btn{
+    padding: 0.5em 2.5em 0.5em 2.5em;
+}
+
 .container-fluid{
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding-top: 50px;
+    padding-bottom: 60px;
 }
 
 .dropdown-item:hover{
     background-color: #FDCD3D;
+}
+
+.footer-left{
+    padding-left: 5.25em;
+}
+
+.footer-right{
+    padding-right: 5.25em;
+}
+
+.footer-text-wrap{
+    text-align: left;
 }
 
 #logo{
@@ -27,6 +43,11 @@
 
 .nav-text{
     margin: 2em 0 -1em 0;
+}
+
+#ust-logo{
+    width: 350px;
+    height: auto;
 }
 
 .yellow-bg{ 
