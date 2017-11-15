@@ -1,0 +1,35 @@
+.container-fluid{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.dropdown-item:hover{
+    background-color: #FDCD3D;
+}
+
+#logo{
+    height: 70px;
+    width: auto;
+}
+
+.navbar-brand{
+    margin: 0  2em 0 10em;  
+}
+
+.nav-link{
+    color: #1F1F1F;
+    margin-right: 1em;
+}
+
+.nav-link:hover{
+    color: rgb(255, 255, 255);
+}
+
+.nav-text{
+    margin: 2em 0 -1em 0;
+}
+
+.yellow-bg{ 
+    background-color: #FDCD3D;
+    color: #1F1F1F;
+}
