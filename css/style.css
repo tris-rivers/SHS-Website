@@ -58,3 +58,23 @@
     background-color: #FDCD3D;
     color: #1F1F1F;
 }
+
+  #chatborder {
+    border-style: solid;
+    background-color: #eeeeee;
+    border-width: 1px;
+    margin: 40px 80px 40px 80px;
+    padding: 10px 20px 15px 15px;
+    border-radius: 3px;
+  }
+  
+  .chatlog {
+     font-size: 15px;
+  }
+  
+  #chatbox {
+    font-size: 17px;
+    height: 22px;
+    width: 100%;
+    padding: 15px;
+  }

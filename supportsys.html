@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Chatbot</title>
+        <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    </head>
+    <body>
+        <!--Navbar-->
+        <nav class="yellow-bg navbar navbar-expand-lg">
+            <a class="navbar-brand" href="#"><img id="logo" src="img/logo.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav nav-text">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        About
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="about.html#vision">Vision</a>
+                            <a class="dropdown-item" href="about.html#mission">Mission</a>
+                            <a class="dropdown-item" href="about.html#identity">Identity</a>
+                            <a class="dropdown-item" href="about.html#graduate">Graduate Attributes</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Faculty</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Administration</a>
+                            <a class="dropdown-item" href="#">Strand Chairs</a>
+                            <a class="dropdown-item" href="#">Faculty Members</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://onlineapplication.ust.edu.ph">Admission</a>
+                    </li>   
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">News</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Announcements</a>
+                            <a class="dropdown-item" href="#">Events</a>
+                            <a class="dropdown-item" href="#">Gallery</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Strands</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Science, Technology, Engineering, and Mathematics Strand</a>
+                            <a class="dropdown-item" href="#">Accountancy and Business Management Strand</a>
+                            <a class="dropdown-item" href="#">General Academic Strand - Health-Allied</a>
+                            <a class="dropdown-item" href="#">Humanities and Social Sciences Strand</a>
+                            <a class="dropdown-item" href="#">Music, Arts, and Design Strand</a>
+                            <a class="dropdown-item" href="#">Physical Education and Sports Track</a>
+                            <a class="dropdown-item" href="#">Research</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">SuSy</a>
+                    </li> 
+                </ul>
+            </div>
+        </nav>
+
+        <!--CONTENT-->
+        <div class="content-wrap">
+                <div>
+                    <div id='chatborder'>
+                    <p id="chatlog7" class="chatlog">&nbsp;</p>
+                    <p id="chatlog6" class="chatlog">&nbsp;</p>
+                    <p id="chatlog5" class="chatlog">&nbsp;</p>
+                    <p id="chatlog4" class="chatlog">&nbsp;</p>
+                    <p id="chatlog3" class="chatlog">&nbsp;</p>
+                    <p id="chatlog2" class="chatlog">&nbsp;</p>
+                    <p id="chatlog1" class="chatlog">&nbsp;</p>
+                    <input type="text" name="chat" id="chatbox" placeholder="Ask something..." onfocus="placeHolder()">
+                    </div>
+                </div>
+        </div>
+        
+        <!-- Footer -->
+        <footer class="container-fluid yellow-bg text-center">
+            <div class="row footer-text-wrap">
+                <div class="col-sm-6 footer-left">
+                    <img id="ust-logo"src="img/ust-logo.png">
+                    <br><br>
+                    <p>The University of Santo Tomas is one of the top four universities in the Philippines and is consistently ranked among the top 1000 universities in the whole world. UST is both timeless, owing to its more than four hundred years of quality Catholic education, and timely, as it continuously responds to the needs of the present.</p>
+                </div>
+                <div class="col-sm-6 footer-right">
+                    <h3>Got Inquiries?</h3>
+                    <p>lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet</p>
+                    <center><button class="btn btn-dark">ASK SUSY</button></center>
+                </div>
+            </div>
+        </footer>
+        <!-- Optional JavaScript -->
+        <script type="text/javascript" src="js/script.js"></script>
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    </body>
+</html>
