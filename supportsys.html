@@ -11,7 +11,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
     </head>
-    <body>
+    <body style="background-color: #eeeeee">
         <!--Navbar-->
         <nav class="yellow-bg navbar navbar-expand-lg">
             <a class="navbar-brand" href="#"><img id="logo" src="img/logo.png"></a>
@@ -79,14 +79,21 @@
         <div class="content-wrap">
                 <div>
                     <div id='chatborder'>
-                    <p id="chatlog7" class="chatlog">&nbsp;</p>
-                    <p id="chatlog6" class="chatlog">&nbsp;</p>
-                    <p id="chatlog5" class="chatlog">&nbsp;</p>
-                    <p id="chatlog4" class="chatlog">&nbsp;</p>
-                    <p id="chatlog3" class="chatlog">&nbsp;</p>
-                    <p id="chatlog2" class="chatlog">&nbsp;</p>
-                    <p id="chatlog1" class="chatlog">&nbsp;</p>
-                    <input type="text" name="chat" id="chatbox" placeholder="Ask something..." onfocus="placeHolder()">
+                        <p id="chatlog7" class="chatlog">&nbsp;</p>
+                        <p id="chatlog6" class="chatlog">&nbsp;</p>
+                        <p id="chatlog5" class="chatlog">&nbsp;</p>
+                        <p id="chatlog4" class="chatlog">&nbsp;</p>
+                        <p id="chatlog3" class="chatlog">&nbsp;</p>
+                        <p id="chatlog2" class="chatlog">&nbsp;</p>
+                        <p id="chatlog1" class="chatlog">&nbsp;</p>
+                        <div class="row">
+                            <div class="col-sm-10">
+                                <input class="form form-control" type="text" name="chat" id="chatbox" placeholder="Ask something..." onfocus="placeHolder()">
+                            </div>
+                            <div class="col-sm-2">
+                                <button class="btn btn-primary btn-sm" type="button" name="send" id="send">Send</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
         </div>
