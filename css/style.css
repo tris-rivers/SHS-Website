@@ -43,6 +43,10 @@
     margin: 2em 16em 0 16em;
 }
 
+.downloads{
+    padding-bottom: 2em;
+}
+
 .dropdown-item:hover{
     background-color: #FDCD3D;
 }
@@ -75,6 +79,14 @@
 
 .footer-text-wrap{
     text-align: left;
+}
+
+.list-grp-wrap{
+    margin: 2em 5em 2em 5em;
+}
+
+.list-group-item{
+    font-family: 'Merriweather-Bold';
 }
 
 #logo{
