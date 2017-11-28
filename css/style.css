@@ -9,6 +9,14 @@
     src: url('../fonts/Merriweather-Bold.ttf');
 }
 /**************/
+.announcement-content{
+    margin: 0 0 0 7em;
+}
+
+.announcement-img{
+    width: 200px;
+    height: auto;
+}
 
 .btn{
     padding: 0.5em 2.5em 0.5em 2.5em;
@@ -135,7 +143,7 @@ a, p{
     font-family: 'Lato-Regular';
 }
 
-h2, h3{
+h2, h3, h4{
     font-family: 'Merriweather-Bold';
 }
 
