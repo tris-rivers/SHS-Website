@@ -128,6 +128,10 @@
     min-height: auto;
 }
 
+.tbl-position{
+    padding-left: 2em;
+}
+
 #ust-logo{
     width: 350px;
     height: auto;
@@ -139,12 +143,16 @@
 }
 
 /***********/
-a, p{
+a, p, h5{
     font-family: 'Lato-Regular';
 }
 
 h2, h3, h4{
     font-family: 'Merriweather-Bold';
+}
+
+h5{
+    font-weight: bolder;
 }
 
 
