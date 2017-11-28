@@ -6,15 +6,15 @@ var messages = [],
 
 function chatbotResponse() {
   talking = true;
-  botMessage = "otoke"; //eto yung pag di na niya gets yung tinatanong
+  botMessage = "Sorry, I cannot understand you. Kindly fillout this form to"; //eto yung pag di na niya gets yung tinatanong
 
   if (lastUserMessage === 'hi' || lastUserMessage =='hello') {
-    const hi = ['hi','hallo','hello', 'hola']
+    const hi = ['Hi! Ask something to get started', 'Hello! Ask something to get started']
     botMessage = hi[Math.floor(Math.random()*(hi.length))];;
   }
 
-  if (lastUserMessage === "ma'am kahoot") {
-    botMessage = 'HINDE' //'My name is ' + botName;
+  if (lastUserMessage === "when is the enrollment for second semester?") {
+    botMessage = 'January 10, 2018 at UST Seminary Gym'
   }
 }
 
