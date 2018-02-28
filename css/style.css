@@ -147,6 +147,10 @@ a, p, h5{
     font-family: 'Lato-Regular';
 }
 
+p{
+    text-align: justify;
+}
+
 h2, h3, h4{
     font-family: 'Merriweather-Bold';
 }
