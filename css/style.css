@@ -109,6 +109,7 @@
 .nav-link{
     color: #1F1F1F;
     margin-right: 1em;
+    font-weight: 600;
 }
 
 .nav-link:hover{
@@ -140,6 +141,12 @@
 .yellow-bg{ 
     background-color: #FDCD3D;
     color: #1F1F1F;
+}
+
+.active-tab{
+    color: #fff;
+    border-bottom: 4px #fff solid;
+    margin-bottom: -2px;
 }
 
 /***********/
