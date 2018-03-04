@@ -18,6 +18,14 @@
     height: auto;
 }
 
+.black-container{
+    background-color: #1F1F1F;
+    border-radius: 3px;
+    height: 100%;
+    margin-left: 10px;
+    width: 100%;
+}
+
 .btn{
     padding: 0.5em 2.5em 0.5em 2.5em;
 }
@@ -39,6 +47,25 @@
     height: 22px;
     width: 95%;
     padding: 18px;
+}
+
+.contact-btn{
+    background-color: #FDCD3D;
+    font-weight: 500;
+    margin-left: 37%;
+}
+
+.contact-btn:hover{
+    background-color: #CCD1D1;
+}
+
+.contact-content{
+    padding: 2em 2em;
+}
+
+.contact-us{
+    color: #fff;
+    font-family: 'Lato-Regular';
 }
 
 .container-fluid{
@@ -134,8 +161,8 @@
 }
 
 #ust-logo{
-    width: 350px;
-    height: auto;
+    width: auto;
+    height: 80px;
 }
 
 .yellow-bg{ 
