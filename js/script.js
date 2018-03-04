@@ -16,6 +16,10 @@ function chatbotResponse() {
   if (lastUserMessage === "when is the enrollment for second semester?") {
     botMessage = 'January 10, 2018 at UST Seminary Gym'
   }
+
+  if (lastUserMessage === "hayaan mo sila") {
+    botMessage = 'Sige sige, maglibang!!!!!!!'
+  }
 }
 
 function newEntry() {

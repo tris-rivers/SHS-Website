@@ -147,6 +147,10 @@
     margin: 1em 0 -1em 2em;
 }
 
+.pagination {
+    justify-content: center;
+}
+
 #send{
     margin-left: -30px;
 }
