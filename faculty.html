@@ -60,9 +60,18 @@
         </nav>
 
         <!--CONTENT-->
-        <div class="content-wrap">
-                <div id="admin">
-                    <h2>Administration</h2>
+        <div class="list-grp-wrap">
+            <div class="row">
+                <div class="list-group col-sm-4" id="myList" role="tablist">
+                    <a class="list-group-item list-group-item-action active" data-toggle="list" href="#admin" role="tab">Administration</a>
+                    <a class="list-group-item list-group-item-action" data-toggle="list" href="#strandChairs" role="tab">Strand Chairs</a>
+                    <a class="list-group-item list-group-item-action" data-toggle="list" href="#facultyMembers" role="tab">Faculty Members</a>
+                </div>
+
+                <!-- Tab panes -->
+                <div class="tab-content col-sm-8">
+                    <div class="tab-pane active" id="admin" role="tabpanel"> 
+                        <h2>Administration</h2>
                         <table>
                             <tr>
                                 <td><img src="img/faculty/admin/principal.jpg" width="150px"></td>
@@ -89,9 +98,10 @@
                                 <td class="tbl-position"><h5>ASST. PROF. JAEZAMIE V. ONG, MA</h5><p>School Secretary</p></td>
                             </tr>
                         </table><br><br>
-                </div>
-                <div id="strandchairs">
-                    <h2>Strand Chairs</h2>
+                    </div>
+
+                    <div class="tab-pane fade" id="strandChairs" role="tabpanel">
+                        <h2>Strand Chairs</h2>
                         <table>
                             <tr>
                                 <td><img src="img/faculty/strand chairs/stem.jpg" width="150px"></td>
@@ -105,29 +115,32 @@
                                 <td><img src="img/faculty/strand chairs/gas.jpg" width="150px"></td>
                                 <td class="tbl-position"><h5>GENERAL ACADEMIC – Health-Allied</h5><p>Ms. Hilda Hagad</p></td>
                             </tr>
+                        </table><br><br> 
+                    </div>
+
+                    <div class="tab-pane fade" id="facultyMembers" role="tabpanel"> 
+                        <h2>Faculty</h2>
+                        <table>
+                            <tr>
+                                <td><img src="img/faculty/1DESOSA.jpg" width="150px"></td>
+                                <td class="tbl-position"><h5>Contemporary Philippine Arts from the Regions</h5><p>De Sosa, Amihan A.</p></td>
+                            </tr>
+                            <tr>
+                                <td><img src="img/faculty/2ARABIT.jpg" width="150px"></td>
+                                <td class="tbl-position"><h5>Disaster and Risk Reduction Management</h5><p>Arabit, Pocholo Mari T.</p></td>
+                            </tr>
+                            <tr>
+                                <td><img src="img/faculty/3ATAYDE.jpg" width="150px"></td>
+                                <td class="tbl-position"><h5>Earth and Life Science</h5><p>Atayde, Reuben Jerome D.</p></td>
+                            </tr>
+                            <tr>
+                                <td><img src="img/faculty/4ALFEROS.jpg" width="150px"></td>
+                                <td class="tbl-position"><h5>Earth Science</h5><p>Alferos, Aileen</p></td>
+                            </tr>
                         </table><br><br>
+                    </div>
                 </div>
-                <div id="faculty">
-                    <h2>Faculty</h2>
-                    <table>
-                        <tr>
-                            <td><img src="img/faculty/1DESOSA.jpg" width="150px"></td>
-                            <td class="tbl-position"><h5>Contemporary Philippine Arts from the Regions</h5><p>De Sosa, Amihan A.</p></td>
-                        </tr>
-                        <tr>
-                            <td><img src="img/faculty/2ARABIT.jpg" width="150px"></td>
-                            <td class="tbl-position"><h5>Disaster and Risk Reduction Management</h5><p>Arabit, Pocholo Mari T.</p></td>
-                        </tr>
-                        <tr>
-                            <td><img src="img/faculty/3ATAYDE.jpg" width="150px"></td>
-                            <td class="tbl-position"><h5>Earth and Life Science</h5><p>Atayde, Reuben Jerome D.</p></td>
-                        </tr>
-                        <tr>
-                            <td><img src="img/faculty/4ALFEROS.jpg" width="150px"></td>
-                            <td class="tbl-position"><h5>Earth Science</h5><p>Alferos, Aileen</p></td>
-                        </tr>
-                    </table><br><br>
-                </div>
+            </div>
         </div>
         
         <!-- Footer -->
