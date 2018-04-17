@@ -60,3 +60,6 @@ function keyPress(e) {
 function placeHolder() {
   document.getElementById("chatbox").placeholder = "";
 }
+
+
+/*readmore */

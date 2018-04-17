@@ -197,4 +197,9 @@ h5{
     font-weight: bolder;
 }
 
-
+.morecontent span {
+    display: none;
+}
+.morelink {
+    display: block;
+}
