@@ -125,6 +125,7 @@
 }
 
 #logo{
+    margin-left: 0.5em;
     height: 60px;
     width: auto;
 }
@@ -144,7 +145,7 @@
 }
 
 .nav-text{
-    margin: 1em 0 -1em 1em;
+    margin: 1em 0 -1em 2em;
 }
 
 .pagination {
